@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.wso2.api.authorization
+Built-By: savithri
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1537444195225
+Import-Package: org.apache.axis2.addressing;version="[1.6,2)",org.apac
+ he.axis2.context;version="[1.6,2)",org.apache.commons.codec.binary,or
+ g.apache.log4j;version="[1.2,2)",org.apache.synapse,org.apache.synaps
+ e.core.axis2,org.apache.synapse.rest,org.wso2.carbon.core.services.au
+ thentication;version="[4.4,5)",org.wso2.carbon.registry.core.service;
+ version="[1.0,2)",org.wso2.carbon.user.api;version="[1.0,2)",org.wso2
+ .carbon.user.core;version="[4.4,5)",org.wso2.carbon.user.core.service
+ ;version="[4.4,5)"
+Service-Component: OSGI-INF/serviceComponents.xml
+DynamicImport-Package: *
+Tool: Bnd-1.43.0
+Export-Package: org.wso2.api.authorization;uses:="org.apache.synapse.r
+ est,org.wso2.carbon.core.services.authentication,org.apache.axis2.con
+ text,org.wso2.carbon.user.core,org.apache.axis2.addressing,org.apache
+ .synapse.core.axis2,org.wso2.carbon.user.api,org.apache.commons.codec
+ .binary,org.apache.synapse,org.apache.log4j,org.wso2.carbon.registry.
+ core.service,org.wso2.carbon.user.core.service";version="1.0.0"
+Bundle-Version: 1.0.0
+Bundle-Name: org.wso2.api.authorization
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+
